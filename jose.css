@@ -30,14 +30,15 @@ header{
     cursor:pointer;
 }
 .menu-header a:hover{
-    color: black;
+    color: rgb(209, 200, 26);
     transition: 0.5s;
 }
 .div-section1 {
     padding: 6em;
-   background-image: url(imagem.jose/barnes\ da\ camisa\ da\ selação\ BR.jpg);
+   background-image: url(imagem.jose/textura-2.jpg);
     background-size: cover;
-    position: center;
+    background-position: center;
+
 }
 
 
@@ -69,9 +70,10 @@ header{
 
 #section-2{
     padding: 5em;
-    background-image: url(imagem.jose/baners-nk31.jpg);
-    background-position: 100%;
+    background-image: url(imagem.jose/textura.jpg);
+    background-position:center;
     background-size: cover;
+
    
 }
 .div-section2 h2{
