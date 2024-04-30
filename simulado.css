@@ -36,13 +36,15 @@ flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar 
     color: #C5B6A5 ; /*Habilitando uma cor ao passar o mouse*/
 }
 
+
+
 .secao{
     padding: 2rem;
     text-align: center;
     background-color: #c5b6a58c;
 }
 
-.secao h2{
+.secao h1{
     margin: 10px 10px 10px auto;
     font-size: 2rem;
 }
@@ -79,23 +81,9 @@ flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar 
      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.473);
     }
 
-    #botao{
-        padding: 0.6rem;
-        color: black;
-        font-size: 1.0rem;
-        cursor: pointer;
-       }
-        
-       #botao:hover{
-        background-color: #1c0f009c ;
-        color: #C5B6A5;
-        cursor: pointer;
-        transition: 1s;
-
-       }
 .btn-div input{
-    padding: 20px;
-    color: rgb(12, 12, 12);
+padding: 20px;
+color: rgb(12, 12, 12);
 height: 50px;
 width: 210px;
 cursor: pointer;
@@ -140,15 +128,79 @@ transition: 0.5s;
     color: #C5B6A5; /*Mudar cor da fonte*/
 }
 
+
+
+
+
     @media screen and (max-width : 1920px ) {
+
+        .cabecalho{
+            background-color: #1c0f009d; /* Mudar cor de fundo*/
+            padding: 5rem; /*Um espaçamento entre o conteúdo e a margem*/
+            display: flex; /* Para meus itens ficarem lado á lado*/
+            flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar em telas menores*/
+            }
+            
+            .menu li{
+                margin-left: 15px; /* Dando espaço entre o lado esquerdo dos textos */
+            }
+            
+            .menu li a{
+                color: white; /*Mudar cor da fonte*/
+                padding: 10px; /*Um espaçamento entre o conteúdo e a margem*/
+                font-size: 30px;  /* Aumentar o tamanha do ícone*/
+                cursor: pointer; /*Altera o cursor do mouse para pointer */
+            }
+
+            .secao{
+                padding: 4rem;
+            }
+
+            .secao h1{
+                margin: 10px 10px 10px auto;
+                font-size: 3rem;
+                margin-bottom: 13px;
+            }
+            
+            .secao p{
+                margin-bottom: 1rem;
+                font-size: 2.3rem;
+            }
+
+            #formulario label{
+                font-size: 2rem;
+            }
+    
+            #formulario input{
+                padding: 2rem;
+                font-size: 2.0rem;
+            }
+
+            .lista li a{
+                color: white; /*Mudar cor da fonte*/
+                font-size: 2rem; /* Aumentar o tamanha do ícone*/
+                padding: 20px; /*Um espaçamento entre o conteúdo e a margem*/
+            }
+            
         
     }
 
     @media screen and (max-width: 1366px) {
-    
+
+        #formulario label{
+            font-size: 1.5rem;
+        }
+
+        #formulario input{
+            padding: 1.6rem;
+            font-size: 1.1rem;
+        }
+        
     }
 
     @media screen and (max-width: 991px) {
+
+        /**/
 
     }
 
@@ -170,6 +222,12 @@ transition: 0.5s;
     
     @media screen and (max-width : 480px ) {
 
+        .cabecalho{
+            background-color: #1c0f009d; /* Mudar cor de fundo*/
+            padding: 2rem; /*Um espaçamento entre o conteúdo e a margem*/
+            display: flex; /* Para meus itens ficarem lado á lado*/
+            flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar em telas menores*/
+            }
     }
     
 
