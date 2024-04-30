@@ -57,7 +57,9 @@ flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar 
     margin: 45px auto;
 
  }
-
+ img{
+ 
+}
 
 #formulario{
     padding: 0.7rem;
@@ -99,6 +101,10 @@ flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar 
 height: 50px;
 width: 210px;
 cursor: pointer;
+font-size: 17px
+}
+.btn-div a  {
+margin-left: 54px;
 }
 .btn-div input:hover{
 background-color: rgb(141, 135, 222);
