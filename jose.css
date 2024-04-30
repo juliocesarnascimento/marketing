@@ -139,23 +139,82 @@ h2{
 }
 
 @media screen and (max-width : 1920px ) {
-    .menu-header ul{
-        display: flex;
-       
-        justify-content: center;
-        list-style: none;
-    }
 
+    /*Não precisou ser modificado*/
         
 }
 
 @media screen and (max-width: 1366px) {
 
-}
-
-@media screen and (max-width: 991px) {
+    /*Não precisou ser modificado*/
 
 }
+
+@media screen and (max-width: 991px){
+
+     /*Aqui começa a primeira seção*/
+    
+     .div-section1 {
+        padding: 4em;
+        background-image: url(imagem.jose/barnes\ da\ camisa\ da\ selação\ BR.jpg);
+        background-size: cover;
+        position: center;
+       }
+
+       .div-section1 h1{
+        font-size: 19px;
+    }
+
+    .paragrafo{
+        margin-top: 4px;
+        font-size: 18px;
+    }
+
+    .div-section1 button{
+        border-radius: 40px;
+        padding: 15px;
+        width: 4rem;
+        margin: 30px;
+        margin-left: 0px;
+        font-size: 16px;
+     }
+     
+     .div-section1  a button{
+         margin-right: 70px;
+         justify-content: center;
+         border-color: rgb(0, 255, 26);
+         cursor: pointer;
+     }
+
+     /*Aqui começa o roda-pé*/
+
+ .hodape a{
+    text-decoration: none;
+    color: black;
+    font-size: 33px;
+    cursor:pointer;
+}
+.hodape a:hover{
+    color: yellow;
+    transition: 0.5s;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (max-width : 767px ) {
     .menu-header li{
