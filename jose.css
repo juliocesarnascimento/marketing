@@ -116,8 +116,8 @@ h2{
 
 }
 .hodape{
-    background-color:rgb(36, 209, 225) ;
-    padding: 25px;
+    background-color:#178a51 ;
+    padding: 10vh;
 }
 .hodape ul{
     display: flex;
@@ -130,7 +130,7 @@ h2{
 .hodape a{
     text-decoration: none;
     color: black;
-    font-size: 35px;
+    font-size: 20px;
     cursor:pointer;
 }
 .hodape a:hover{
@@ -138,15 +138,42 @@ h2{
     transition: 0.5s;
 }
 
+.icons{
+    margin-top: 1rem;
+   justify-content: center;
+    display: flex;
+}
+
 @media screen and (max-width : 1920px ) {
 
-    /*Não precisou ser modificado*/
+    .hodape{
+        padding: 3vh;
+      }
+    
+      .hodape a{
+        font-size: 1rem;
+      }
+    
+      .icons{
+        font-size: 2rem;
+      }
+    
         
 }
 
 @media screen and (max-width: 1366px) {
 
-    /*Não precisou ser modificado*/
+  .hodape{
+    padding: 3vh;
+  }
+
+  .hodape a{
+    font-size: 1rem;
+  }
+
+  .icons{
+    font-size: 1rem;
+  }
 
 }
 
@@ -196,7 +223,7 @@ h2{
  .hodape a{
     text-decoration: none;
     color: black;
-    font-size: 33px;
+    font-size: 25px;
     cursor:pointer;
 }
 .hodape a:hover{
@@ -209,9 +236,13 @@ h2{
 
 
 
+@media screen and (max-width: 720px ) {
 
+    .hodape a{
+        font-size: 0.9rem;
+    }
 
-
+}
 
 
 
@@ -328,7 +359,11 @@ h2{
 
 
 @media screen and (max-width : 480px ) {
-    .menu-header li{
+
+
+
+
+   .menu-header li{
         margin-right: 10px;
      }
 
@@ -339,10 +374,9 @@ h2{
         cursor:pointer;
     }
 
-    /*Aqui começa a primeira seção*/
 
     .div-section1 {
-     padding: 1em;
+     padding: 1.2rem;
      background-image: url(imagem.jose/barnes\ da\ camisa\ da\ selação\ BR.jpg);
      background-size: cover;
      position: center;
@@ -373,10 +407,10 @@ h2{
         cursor: pointer;
     }
 
-    /* Aqui começa a segunda seção*/
+
 
     #section-2{
-        padding: 5em;
+        padding: 4rem;
         background-image: url(imagem.jose/baners-nk31.jpg);
         background-position: 100%;
         background-size: cover;
@@ -431,19 +465,18 @@ h2{
     
     }
     
-    /*Aqui começa o roda-pé*/
+
 
     .hodape a{
         text-decoration: none;
         color: black;
-        font-size: 19px;
+        font-size: 18px;
         cursor:pointer;
     }
     .hodape a:hover{
         color: yellow;
         transition: 0.5s;
     }
-
    
 }
 

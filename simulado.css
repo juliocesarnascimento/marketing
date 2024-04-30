@@ -228,6 +228,32 @@ transition: 0.5s;
             display: flex; /* Para meus itens ficarem lado á lado*/
             flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar em telas menores*/
             }
+
+            
+            .menu li a{
+                color: white; /*Mudar cor da fonte*/
+                padding: 10px; /*Um espaçamento entre o conteúdo e a margem*/
+                font-size: 20px;  /* Aumentar o tamanha do ícone*/
+                cursor: pointer; /*Altera o cursor do mouse para pointer */
+            }
+
+            .secao h1{
+                margin: 10px 10px 10px auto;
+                font-size: 2rem;
+            }
+            
+            .secao p{
+                margin-bottom: 1rem;
+                font-size: 1rem;
+            }
+
+            .lista li a{
+                color: white; /*Mudar cor da fonte*/
+                font-size: 17px; /* Aumentar o tamanha do ícone*/
+                padding: 20px; /*Um espaçamento entre o conteúdo e a margem*/
+            }
+
+           
     }
     
 
