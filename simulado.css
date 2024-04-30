@@ -57,9 +57,6 @@ flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar 
     margin: 45px auto;
 
  }
- img{
- 
-}
 
 #formulario{
     padding: 0.7rem;
@@ -94,6 +91,7 @@ flex-wrap: wrap; /* Aqui informamos que os itens podem "quebrar" para se adptar 
         color: #C5B6A5;
         cursor: pointer;
         transition: 1s;
+
        }
 .btn-div input{
     padding: 20px;
@@ -103,9 +101,11 @@ width: 210px;
 cursor: pointer;
 font-size: 17px
 }
+
 .btn-div a  {
 margin-left: 54px;
 }
+
 .btn-div input:hover{
 background-color: rgb(141, 135, 222);
 transition: 0.5s;
@@ -153,11 +153,23 @@ transition: 0.5s;
     }
 
     @media screen and (max-width : 767px ) {
+
+        .secao p{
+            margin-top: 6px;
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+        }
+        
+
+        .lista li a{
+            font-size: 20px; /* Aumentar o tamanha do ícone*/
+            padding: 20px; /*Um espaçamento entre o conteúdo e a margem*/
+        }
     
     }
     
     @media screen and (max-width : 480px ) {
-        
+
     }
     
 
