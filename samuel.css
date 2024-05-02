@@ -35,6 +35,8 @@ body {
     margin-left: 20px; 
      }
   #sessao{
-    
-
+    background-image: url(imagem.jose/portugal.jpg);
+ padding: 15em;
+ background-size: cover;
+ 
  }
