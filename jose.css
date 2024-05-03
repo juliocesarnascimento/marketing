@@ -156,6 +156,13 @@ h2{
     display: flex;
 }
 
+
+.simbulo-nk img{
+   margin: 10px;
+   margin-right: 50px;
+
+}
+
 @media screen and (max-width : 1920px ) {
 
     .hodape{
