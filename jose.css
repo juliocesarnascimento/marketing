@@ -461,7 +461,7 @@ h2{
         text-align: center;
     }
     #flexbox img{
-        max-width: 100%;
+        max-width:90%;
         display: block;
     
     }
@@ -469,7 +469,7 @@ h2{
         align-items: center;
         display: flex;
         flex-wrap: wrap;
-        max-width: 800px;
+        max-width: 100px;
         margin: 0 auto;
      
     }
@@ -479,7 +479,7 @@ h2{
         flex: 1 1 200px;
     }
     #flexbox p{
-        font-size: 19px;
+        font-size: 0.5em;
         text-align: center;
     
     }
@@ -489,7 +489,7 @@ h2{
     .hodape a{
         text-decoration: none;
         color: black;
-        font-size: 18px;
+        font-size: 0.1em;
         cursor:pointer;
     }
     .hodape a:hover{
